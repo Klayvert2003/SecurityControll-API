@@ -3,10 +3,8 @@ package com.github.klayvert.securitycontroll.config;
 import com.github.klayvert.securitycontroll.security.CustomAuthentication;
 import com.github.klayvert.securitycontroll.security.IdentificacaoUsuario;
 import org.springframework.security.authentication.AuthenticationProvider;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
